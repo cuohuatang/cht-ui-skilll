@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.2.1 — 2026-10-24
+
+**更名**
+- 技能全局更名：`CHT-UI-SKILLS` → `cht-ui-skill`（目录名、SKILL.md `name` 字段、README 安装指令、GitHub 仓库 slug 全部统一为小写 `cht-ui-skill`，保持目录名 == `name` 字段）。
+- GitHub 仓库 `cuohuatang/CHT-UI-SKILLS` → `cuohuatang/cht-ui-skill`（旧 URL 自动重定向）。
+
 ## v1.2.0 — 2026-10-23
 
 **新增（AI 审美三件套）**
@@ -25,7 +31,7 @@
 - 全局铁律新增 3 条：TDD 不可跳过、计划先行、完成前验证（方案 C 铁律融合）。
 - README 与 SKILL.md 同步：能力表 11 → 12、路由/决策树/分册索引/技能关系/铁律/工作流全量更新；版本号 1.1.0 → 1.1.1。
 
-> 本版总结：嫁接 superpowers 开发方法论为第 12 项能力，内置工作流实现「设计（CHT-UI-SKILLS）× 工程（superpowers）」接口对接：需求模糊先头脑风暴、代码生成可切工程模式、完成前强制验证。
+> 本版总结：嫁接 superpowers 开发方法论为第 12 项能力，内置工作流实现「设计（cht-ui-skill）× 工程（superpowers）」接口对接：需求模糊先头脑风暴、代码生成可切工程模式、完成前强制验证。
 
 ## v1.1.0 — 2026-10-20
 

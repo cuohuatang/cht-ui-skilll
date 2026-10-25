@@ -1,4 +1,4 @@
-# CHT-UI-SKILLS
+# cht-ui-skill
 
 一站式前端视觉与动效技能集，融合 15 大能力，并内置一条「审美打底 → 出方案矩阵 → 出稿（静态稿 / 可拖改原型）→ 生成可运行代码（快速 / 工程模式）→ 完成前验证 → 实测验收」的编排工作流。
 
@@ -43,16 +43,16 @@ oil-ui + 8 大分册 → 出「风格 × 技术」方案矩阵（默认 6-9 版�
 
 ## 安装
 
-把本目录整体放到 `~/.codebuddy/skills/CHT-UI-SKILLS/`（目录名必须严格等于 `SKILL.md` 的 `name` 字段），对所有对话与项目生效。
+把本目录整体放到 `~/.codebuddy/skills/cht-ui-skill/`（目录名必须严格等于 `SKILL.md` 的 `name` 字段），对所有对话与项目生效。
 
 ```bash
-git clone https://github.com/cuohuatang/CHT-UI-SKILLS.git ~/.codebuddy/skills/CHT-UI-SKILLS
+git clone https://github.com/cuohuatang/cht-ui-skill.git ~/.codebuddy/skills/cht-ui-skill
 ```
 
 ## 结构
 
 ```
-CHT-UI-SKILLS/
+cht-ui-skill/
 ├── SKILL.md                 # 总入口与路由（含内置工作流第七节）
 ├── README.md                # 本文件
 ├── CHANGELOG.md             # 版本迭代记录

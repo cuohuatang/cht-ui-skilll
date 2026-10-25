@@ -21,7 +21,7 @@ allowed-tools: Read,Write,Bash
 
 > 给 AI 编程代理的一整套**组合式开发方法论**（上游：`obra/superpowers`，MIT）。核心思路：AI 接到开发任务时不直接动手写码，而是
 > **先收敛需求 → 出实现计划 → 真·红绿 TDD → 子代理驱动执行 → 验证 → 评审**，全程按流程干活。
-> 与 CHT-UI-SKILLS 的对接点：内置工作流第一步（需求模糊时触发 brainstorming）与第三步（工程模式：设计定稿后用本方法论把设计交付物变成已验证代码）。
+> 与 cht-ui-skill 的对接点：内置工作流第一步（需求模糊时触发 brainstorming）与第三步（工程模式：设计定稿后用本方法论把设计交付物变成已验证代码）。
 
 ## 核心工作流（自动触发）
 
@@ -63,7 +63,7 @@ allowed-tools: Read,Write,Bash
 | 14 | `writing-skills` | 为 agent 编写新技能 |
 | 15 | `diagnosing-superpowers` | Superpowers 自身行为异常时的诊断 |
 
-## 全局铁律（并入 CHT-UI-SKILLS 主入口，见其第四节）
+## 全局铁律（并入 cht-ui-skill 主入口，见其第四节）
 
 1. **TDD 不可跳过**：写任何实现代码前先写测试，且必须亲眼看过测试失败（红）再写实现到通过（绿）。
 2. **YAGNI / DRY**：不做多余的东西；重复代码必须抽象。

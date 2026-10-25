@@ -1,10 +1,10 @@
 ---
-name: CHT-UI-SKILLS
+name: cht-ui-skill
 display_name: "CHT 前端视觉与动效技能集"
 display_name_en: "CHT UI Skills"
 description: "一站式前端视觉与动效技能集，融合 15 大能力：p5.js 创意编码、CSS Doodle 图案生成、Theatre.js 时间轴编排、React Spring 物理动画、Inure 精致微交互、UI-UX Craft 设计规范工艺、React PostFX 后期特效、Chakra UI 组件系统、oil-ui 界面设计/改版/评审、draw-ui 设计稿生成与截图还原、m3e-canvas 可拖拽 UI 设计、superpowers 开发方法论（头脑风暴/计划/TDD/调试/验证/评审）、frontend-design 设计哲学（Anthropic 官方，反 AI 默认陷阱）、taste-skill 研究方向引擎（脚本发牌 + 反 slop 实测）、garden-skills 风格配方库（25 种风格 + 6 技能）。按任务路由到对应分册。"
-description_zh: "CHT-UI-SKILLS：前端视觉/动效/设计/工程/审美全家桶——创意编码、生成图案、动画编排、物理动画、微交互、设计规范、后期特效、组件系统、界面设计评审、设计稿生成还原、可拖拽 UI 设计、开发方法论（TDD/计划/验证/评审）、设计哲学（反 AI 味）、研究方向引擎、25 种风格配方"
-description_en: "CHT-UI-SKILLS: a frontend visual & motion toolkit covering p5.js, css-doodle, Theatre.js, React Spring, Inure micro-interactions, UI/UX craft, React PostFX, Chakra UI, oil-ui design/review, draw-ui design-to-code, m3e-canvas draggable UI design, superpowers dev methodology, Anthropic frontend-design philosophy, taste-skill direction engine, and garden-skills style recipes."
+description_zh: "cht-ui-skill：前端视觉/动效/设计/工程/审美全家桶——创意编码、生成图案、动画编排、物理动画、微交互、设计规范、后期特效、组件系统、界面设计评审、设计稿生成还原、可拖拽 UI 设计、开发方法论（TDD/计划/验证/评审）、设计哲学（反 AI 味）、研究方向引擎、25 种风格配方"
+description_en: "cht-ui-skill: a frontend visual & motion toolkit covering p5.js, css-doodle, Theatre.js, React Spring, Inure micro-interactions, UI/UX craft, React PostFX, Chakra UI, oil-ui design/review, draw-ui design-to-code, m3e-canvas draggable UI design, superpowers dev methodology, Anthropic frontend-design philosophy, taste-skill direction engine, and garden-skills style recipes."
 category: frontend
 version: 1.2.0
 author: cuohuatang
@@ -34,7 +34,7 @@ tags:
 allowed-tools: Read,Write,Bash
 ---
 
-# CHT-UI-SKILLS —— 前端视觉与动效技能集
+# cht-ui-skill —— 前端视觉与动效技能集
 
 > 把 15 个前端视觉/动效/设计/工程能力**嫁接成一个技能包**。每个能力都是对应知名开源项目（或官方/策展来源）的实战工艺指南，
 > 本文件是**总入口与路由**，具体 API、模板、配方都在 `references/` 分册里（渐进披露，按需读取）。
@@ -137,10 +137,10 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 
 ## 六、与其它技能的关系
 
-- `oil-ui`（第 9 项）：负责**界面设计、改版、风格探索、多方案对比与独立视觉评审**，自带完整的设计方法与截图工具；是 CHT-UI-SKILLS 里「设计判断」这一层的主体。它与本集其它 8 项（落地实现）配合：oil-ui 定方向/出评审结论 → 其余分册负责把设计**落地**成可运行代码与组件。
+- `oil-ui`（第 9 项）：负责**界面设计、改版、风格探索、多方案对比与独立视觉评审**，自带完整的设计方法与截图工具；是 cht-ui-skill 里「设计判断」这一层的主体。它与本集其它 8 项（落地实现）配合：oil-ui 定方向/出评审结论 → 其余分册负责把设计**落地**成可运行代码与组件。
 - `draw-ui`（第 10 项）：负责**生成 UI 设计稿（图片）并把截图/参考图精准还原为 HTML/CSS/小程序**，是「设计稿生成 + 还原成代码」这一层。它与 oil-ui 互补——draw-ui 自己也会在探索视觉方向时推荐 oil-ui，二者常串联：draw-ui 出图/还原 → oil-ui 做方向打磨与评审；对已有界面的小幅改造则直接用 draw-ui 的还原路径。
 - `m3e-canvas`（第 11 项）：负责**可拖拽/可交互的 UI 原型**——AI 按 M3E 协议生成设计 JSON，压缩进分享链接，用户在豆包侧边栏或浏览器画布里直接拖改，改完导出 vibe-coding 提示词喂给 AI 代码生成。与 draw-ui 互补：draw-ui 出**静态精细稿**，m3e-canvas 出**可拖改原型**；在内置工作流第二步作为分支乙（见第七节）。
-- `superpowers`（第 12 项）：负责**开发方法论**——需求收敛（brainstorming）、实现计划（writing-plans）、测试驱动开发（test-driven-development）、子代理驱动执行（subagent-driven-development）、系统化调试（systematic-debugging）、完成前验证（verification-before-completion）、代码评审（requesting/receiving-code-review）。是「工程实现」这一层：CHT-UI-SKILLS 的设计/视觉能力负责"做出什么"，superpowers 负责"怎么工程化交付"；在内置工作流第一步（需求模糊时）与第三步（工程模式）对接（见第七节）。
+- `superpowers`（第 12 项）：负责**开发方法论**——需求收敛（brainstorming）、实现计划（writing-plans）、测试驱动开发（test-driven-development）、子代理驱动执行（subagent-driven-development）、系统化调试（systematic-debugging）、完成前验证（verification-before-completion）、代码评审（requesting/receiving-code-review）。是「工程实现」这一层：cht-ui-skill 的设计/视觉能力负责"做出什么"，superpowers 负责"怎么工程化交付"；在内置工作流第一步（需求模糊时）与第三步（工程模式）对接（见第七节）。
 - `frontend-design`（第 13 项，Anthropic 官方）：**审美哲学底座**——像设计工作室主设那样思考：主题优先、避默认字体、列出并避开 5 大 AI 默认陷阱、两遍流程（先 token 设计计划 → 审校 → 再写码）。它回答「怎么思考才不像 AI」，供所有设计/出稿环节做审美校准。
 - `taste-skill`（第 14 项）：**研究方向引擎**——`scripts/draw.mjs` 从 247 个策展站提炼的 20 个研究方向里发牌 3 个供选，`library/` 提供 type/palette/hero/section 蓝图，`scripts/inspect.mjs` 在真实浏览器里量排版，走三宽度截图 + rubric + fix 的 look-and-fix 循环。与 oil-ui 互补：oil-ui 做设计**判断**，taste-skill 提供**可执行的方向素材与反 slop 验收**。
 - `garden-skills`（第 15 项）：**风格配方库 + 设计工程师全流程**——`web-design-engineer` 内置 25 种锚定风格配方（Linear/Aesop/Pentagram/Bloomberg/Stripe…，各含调色板/字体/手法/反模式）、Step 0 事实核查、需求模糊时切 Design Direction Advisor 模式；另含 `web-video-presentation`（网页视频演示）、`gpt-image-2`（图像生成）、`beautiful-article`（文章排版）、`kb-retriever`（知识检索）、`motion-showreel`（动效展示）。是「具体风格从哪来」的弹药库。
