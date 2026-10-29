@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## v1.6.0 — 2026-10-29
+
+**新增（设计智能数据库，来源 `nextlevelbuilder/ui-ux-pro-max-skill`，⭐ ~142k，MIT）**
+- 第 21 项能力 `ui-ux-pro-max/`：可检索设计知识库——**79 UI 风格 / 192 套配色 / 74 组字体配对 / 119 条 UX 准则 / 25 种图表 / 22 个技术栈**（v2.15.0，实测强于视频里的 50/97/9），含 `scripts/` BM25 检索 CLI 与 `templates/` 输出模板。**精选参考型嫁接**：收 `README.md`/`README.zh.md`/`LICENSE`/`skill.json` + `src/ui-ux-pro-max/` 的 `data`（39 CSV 库）/ `scripts`（31 检索脚本）/ `templates`（26 输出模板）三件套共 100 文件 / 3.8MB；排除整仓 screenshots/gallery/多语言 README/CLI（整仓 8.3MB）。它是 cht-ui-skill 缺的"**可检索设计知识层**"，与 frontend-design（审美立场）、garden-skills/taste-skill（方向素材）衔接成"查库取事实 → 定方向 → 落地"。
+
+**变更（深入嫁接，非仅入表）**
+- 全局铁律新增 1 条：18 选型查库，禁止凭空杜撰（ui-ux-pro-max，涉及风格/配色/字体配对/UX 准则/技术栈时优先用其数据库检索取事实）。
+- 组合模式新增「设计智能组合（接口⑩）」：ui-ux-pro-max 让选型成为查库动作，与 frontend-design 定立场、garden-skills/taste-skill 供素材串联。
+- 内置工作流第一步「采集方向素材」接入 ui-ux-pro-max 检索（接口⑤⑩）。
+- README 与 SKILL.md 同步：能力表 20 → 21、frontmatter description / tags（ui-ux-pro-max / design-intelligence / color-palette / typography-pairing）、决策树、触发词索引、「与其它技能的关系」（定位为设计智能数据库层）、组合模式新增设计智能组合；版本号 1.5.0 → 1.6.0。
+
+> 注：`frontend-design`（Anthropic 官方设计哲学）早在 v1.2.0 即已作为第 13 项能力完整嫁接（选这俩时它已在包内），本次仅新增 ui-ux-pro-max 一项；能力数由 20 升 21。
+
 ## v1.5.0 — 2026-10-29
 
 **新增（生成式 UI 框架，来源 `vercel-labs/json-render`，⭐ ~18.8k，Apache-2.0）**

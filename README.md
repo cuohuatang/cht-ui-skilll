@@ -1,6 +1,6 @@
 # cht-ui-skill
 
-一站式前端视觉与动效技能集，融合 20 大能力，并内置一条「审美打底 → 出方案矩阵 → 出稿（静态稿 / 可拖改原型）→ 生成可运行代码（快速 / 工程模式）→ 完成前验证 → 生成式 UI（json-render）→ 动效展示导出 → 交付前评审（impeccable × jakubkrehel-skills）→ 实测验收」的编排工作流。
+一站式前端视觉与动效技能集，融合 21 大能力，并内置一条「审美打底 → 出方案矩阵 → 出稿（静态稿 / 可拖改原型）→ 生成可运行代码（快速 / 工程模式）→ 完成前验证 → 生成式 UI（json-render）→ 动效展示导出 → 交付前评审（impeccable × jakubkrehel-skills）→ 实测验收」的编排工作流。
 
 ## 工作流（内置）
 
@@ -28,7 +28,7 @@ oil-ui + 8 大分册 → 出「风格 × 技术」方案矩阵（默认 6-9 版�
 你手动接进项目、git 提交、部署
 ```
 
-## 20 大能力
+## 21 大能力
 
 | # | 能力 | 开源来源 | 一句话 |
 |---|------|----------|--------|
@@ -52,6 +52,7 @@ oil-ui + 8 大分册 → 出「风格 × 技术」方案矩阵（默认 6-9 版�
 | 18 | impeccable 设计词汇表 / 反-slop 方向盘 | `pbakaus/impeccable` | 24 条改稿指令（bolder/quieter/critique/audit…）+ 62 条确定性 slop 规则 + 客观评审（参考型嫁接） |
 | 19 | jakubkrehel-skills 界面评审打磨套件 | `jakubkrehel/skills` | 14 子技能：better-interface/accessibility/typography/colors/layout/writing/ui、interface-review、state-machine、variant、break 等 |
 | 20 | json-render 生成式 UI 框架 | `vercel-labs/json-render` | 定义 catalog（组件/动作/数据绑定护栏）→ AI 生成受约束 JSON Spec → renderer 流式渲染；覆盖 React/RN/Vue/Svelte/Solid/R3F/邮件/PDF/终端；让"AI 生成 UI"可预测、可校验（参考型嫁接：packages/core+react、skills/ 全 30 子技能、examples/chat） |
+| 21 | ui-ux-pro-max 设计智能数据库 | `nextlevelbuilder/ui-ux-pro-max-skill` | 可检索设计知识库：79 UI 风格 / 192 配色 / 74 字体配对 / 119 UX 准则 / 25 图表 / 22 技术栈（v2.15.0），含 BM25 检索脚本与输出模板；选型优先查库而非凭空杜撰（参考型嫁接：README/LICENSE/skill.json + src/ui-ux-pro-max 的 data+scripts+templates） |
 
 ## 安装
 
@@ -80,4 +81,5 @@ cht-ui-skill/
 ├── impeccable/              # 第 18 项：设计词汇表与反-slop 方向盘（SKILL.md + references/ + assets/）
 ├── jakubkrehel-skills/      # 第 19 项：界面评审打磨套件（SKILL.md + skills/ 14 子技能 + LICENSE）
 └── json-render/            # 第 20 项：生成式 UI 框架（SKILL.md + packages/core+react + skills/ 30 子技能 + examples/chat + LICENSE），来源 vercel-labs/json-render（Apache-2.0）
+└── ui-ux-pro-max/          # 第 21 项：设计智能数据库（README/README.zh/LICENSE/skill.json + src/ui-ux-pro-max/{data,scripts,templates}），来源 nextlevelbuilder/ui-ux-pro-max-skill（MIT，⭐~142k，79 风格/192 配色/74 字体配对/119 UX 准则/22 技术栈）
 ```
