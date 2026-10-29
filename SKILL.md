@@ -2,11 +2,11 @@
 name: cht-ui-skill
 display_name: "CHT 前端视觉与动效技能集"
 display_name_en: "CHT UI Skills"
-description: "一站式前端视觉与动效技能集，融合 19 大能力：p5.js 创意编码、CSS Doodle 图案生成、Theatre.js 时间轴编排、React Spring 物理动画、Inure 精致微交互、UI-UX Craft 设计规范工艺、React PostFX 后期特效、Chakra UI 组件系统、oil-ui 界面设计/改版/评审、draw-ui 设计稿生成与截图还原、m3e-canvas 可拖拽 UI 设计、superpowers 开发方法论（头脑风暴/计划/TDD/调试/验证/评审）、frontend-design 设计哲学（Anthropic 官方，反 AI 默认陷阱）、taste-skill 研究方向引擎（脚本发牌 + 反 slop 实测）、garden-skills 风格配方库（25 种风格 + 6 技能）、ai-design-skills 设计演示与转化引擎（design-to-motion 静态设计稿→像素级 HTML 复刻并导出 MP4/GIF 展示片、landing-page-design 高转化落地页完整系统）、impeccable 设计词汇表与反-slop 方向盘（24 条改稿指令 + 62 条确定性反-slop 规则 + critique/audit 评审）、jakubkrehel-skills 界面评审打磨套件（14 子技能：better-interface/accessibility/typography/colors/layout/writing/ui、interface-review、state-machine、variant、break 等）。按任务路由到对应分册。"
-description_zh: "cht-ui-skill：前端视觉/动效/设计/工程/审美全家桶——创意编码、生成图案、动画编排、物理动画、微交互、设计规范、后期特效、组件系统、界面设计评审、设计稿生成还原、可拖拽 UI 设计、开发方法论（TDD/计划/验证/评审）、设计哲学（反 AI 味）、研究方向引擎、25 种风格配方、设计稿动效展示（MP4/GIF 导出）、高转化落地页系统、设计词汇表（24 改稿指令 + 62 反-slop 规则 + critique/audit 评审）、界面评审打磨（无障碍/字体/色彩/布局/文案/UI 精修 + 组件状态机/变体）"
-description_en: "cht-ui-skill: a frontend visual & motion toolkit covering p5.js, css-doodle, Theatre.js, React Spring, Inure micro-interactions, UI/UX craft, React PostFX, Chakra UI, oil-ui design/review, draw-ui design-to-code, m3e-canvas draggable UI design, superpowers dev methodology, Anthropic frontend-design philosophy, taste-skill direction engine, garden-skills style recipes, ai-design-skills demo/conversion engine (design-to-motion, landing-page-design), impeccable design-vocabulary & anti-slop steerer (24 steer commands + 62 deterministic slop rules + critique/audit), and jakubkrehel-skills interface review/polish suite (14 sub-skills)."
+description: "一站式前端视觉与动效技能集，融合 19 大能力：p5.js 创意编码、CSS Doodle 图案生成、Theatre.js 时间轴编排、React Spring 物理动画、Inure 精致微交互、UI-UX Craft 设计规范工艺、React PostFX 后期特效、Chakra UI 组件系统、oil-ui 界面设计/改版/评审、draw-ui 设计稿生成与截图还原、m3e-canvas 可拖拽 UI 设计、superpowers 开发方法论（头脑风暴/计划/TDD/调试/验证/评审）、frontend-design 设计哲学（Anthropic 官方，反 AI 默认陷阱）、taste-skill 研究方向引擎（脚本发牌 + 反 slop 实测）、garden-skills 风格配方库（25 种风格 + 6 技能）、ai-design-skills 设计演示与转化引擎（design-to-motion 静态设计稿→像素级 HTML 复刻并导出 MP4/GIF 展示片、landing-page-design 高转化落地页完整系统）、impeccable 设计词汇表与反-slop 方向盘（24 条改稿指令 + 62 条确定性反-slop 规则 + critique/audit 评审）、jakubkrehel-skills 界面评审打磨套件（14 子技能：better-interface/accessibility/typography/colors/layout/writing/ui、interface-review、state-machine、variant、break 等）、json-render 生成式 UI 框架（vercel-labs，⭐~18.8k，Apache-2.0：catalog 护栏约束下 AI 生成受控 JSON Spec → renderer 流式渲染，覆盖 React/RN/Vue/Svelte/Solid/3D/邮件/PDF/终端）。按任务路由到对应分册。"
+description_zh: "cht-ui-skill：前端视觉/动效/设计/工程/审美全家桶——创意编码、生成图案、动画编排、物理动画、微交互、设计规范、后期特效、组件系统、界面设计评审、设计稿生成还原、可拖拽 UI 设计、开发方法论（TDD/计划/验证/评审）、设计哲学（反 AI 味）、研究方向引擎、25 种风格配方、设计稿动效展示（MP4/GIF 导出）、高转化落地页系统、设计词汇表（24 改稿指令 + 62 反-slop 规则 + critique/audit 评审）、界面评审打磨（无障碍/字体/色彩/布局/文案/UI 精修 + 组件状态机/变体）、生成式 UI 框架（catalog 护栏约束的 AI 受控 JSON Spec → 流式渲染，覆盖 React/RN/Vue/Svelte/Solid/3D/邮件/PDF/终端）"
+description_en: "cht-ui-skill: a frontend visual & motion toolkit covering p5.js, css-doodle, Theatre.js, React Spring, Inure micro-interactions, UI/UX craft, React PostFX, Chakra UI, oil-ui design/review, draw-ui design-to-code, m3e-canvas draggable UI design, superpowers dev methodology, Anthropic frontend-design philosophy, taste-skill direction engine, garden-skills style recipes, ai-design-skills demo/conversion engine (design-to-motion, landing-page-design), impeccable design-vocabulary & anti-slop steerer (24 steer commands + 62 deterministic slop rules + critique/audit), and jakubkrehel-skills interface review/polish suite (14 sub-skills), and json-render generative-UI framework (vercel-labs, Apache-2.0: catalog-guarded AI-generated JSON specs streamed to renderers across React/RN/Vue/Svelte/Solid/3D/email/PDF/terminal)."
 category: frontend
-version: 1.4.0
+version: 1.5.0
 author: cuohuatang
 tags:
   - frontend
@@ -43,15 +43,17 @@ tags:
   - review
   - accessibility
   - ui-polish
+  - generative-ui
+  - json-render
 allowed-tools: Read,Write,Bash
 ---
 
 # cht-ui-skill —— 前端视觉与动效技能集
 
-> 把 19 个前端视觉/动效/设计/工程能力**嫁接成一个技能包**。每个能力都是对应知名开源项目（或官方/策展来源）的实战工艺指南，
+> 把 20 个前端视觉/动效/设计/工程能力**嫁接成一个技能包**。每个能力都是对应知名开源项目（或官方/策展来源）的实战工艺指南，
 > 本文件是**总入口与路由**，具体 API、模板、配方都在 `references/` 分册里（渐进披露，按需读取）。
 
-## 一、19 大能力一览
+## 一、20 大能力一览
 
 | # | 能力 | 开源来源 | 一句话 |
 |---|------|----------|--------|
@@ -74,6 +76,7 @@ allowed-tools: Read,Write,Bash
 | 17 | **landing-page-design 高转化落地页** | `elayadesign/ai-design-skills` | 落地页/营销页完整系统：intake 提问、页面结构、布局选择、转化文案、SEO + 严格视觉规则（字体/间距/圆角/背景/hero/图标/动效）；核心理念 one offer → one audience → one primary action |
 | 18 | **impeccable 设计词汇表 / 反-slop 方向盘** | `pbakaus/impeccable`（⭐ ~92.8k） | 编码 Agent 的「设计词汇表」：24 条可执行改稿指令（bolder/quieter/distill/critique/audit…）+ 62 条确定性反-slop 规则 + critique/audit 评审；给 AI 审美补「改稿动词」与客观验收闭环（参考型嫁接：收人读词汇/规则，不含 Rust 引擎） |
 | 19 | **jakubkrehel-skills 界面评审打磨套件** | `jakubkrehel/skills`（⭐ ~9k） | 14 个纯 agent 子技能：better-interface/accessibility/typography/colors/layout/writing/ui、interface-review、explain-interface、break、build-design、teardown、state-machine、variant；补全出稿/出码后的证据驱动精修与评审 |
+| 20 | **json-render 生成式 UI 框架** | `vercel-labs/json-render`（⭐ ~18.8k，Apache-2.0） | 定义 catalog（组件/动作/数据绑定/visibility/validation 护栏）→ AI 生成受约束 JSON Spec → renderer 流式渲染；覆盖 React/RN/Vue/Svelte/Solid/R3F(3D)/react-email/PDF/Ink(终端)；让"AI 生成 UI"可预测、可校验、失败可降级（参考型嫁接：收 packages/core+react、skills/ 全 30 子技能、examples/chat） |
 
 ## 二、什么时候用 / 不要用
 
@@ -90,6 +93,7 @@ allowed-tools: Read,Write,Bash
 若要把**静态设计稿变成会动的展示片**（Figma/截图/UI 卡片/仪表盘/hero 动画，导出 MP4/GIF 用于社媒或落地页动效），路由到 `ai-design-skills/skills/design-to-motion/SKILL.md`（第 16 项）。
 若要给设计稿/出码界面做**「设计词汇」级的改稿与反-slop 评审**（用 bolder/quieter/distill/critique/audit 等 24 条指令把审美从形容词变动词，按 62 条确定性规则拦下 AI slop），路由到 `impeccable/SKILL.md`（第 18 项）。
 若已出稿/出码、需要**证据驱动的界面评审与打磨**（无障碍/字体/色彩/布局/文案/UI 精修，或组件状态机/变体/拆解/逆向解释），路由到 `jakubkrehel-skills/skills/` 下对应子技能（第 19 项），或先走 `jakubkrehel-skills/skills/better-interface/SKILL.md` 做跨域总评审。
+若要构建**由 AI 驱动、但受 catalog 护栏约束的生成式 UI**（AI 只生成你声明的组件/动作/数据绑定、输出可预测可校验、覆盖 React/RN/Vue/Svelte/Solid/R3F/邮件/PDF/终端），路由到 `json-render/SKILL.md`（第 20 项）。
 
 **不用：** 纯后端、纯业务逻辑、与视觉/交互无关的任务无需激活。若只是静态样式微调（颜色/间距），
 可走 `ui-ux-craft` 分册的 token 规范；若需要选整体设计风格方向，与 `ui-ux-pro-max` 互补（它选方向，本技能落地）。
@@ -117,11 +121,13 @@ allowed-tools: Read,Write,Bash
 | 静态设计稿动画化 / Figma·截图·UI 卡片·仪表盘"演出"功能 / 导出 MP4·GIF 展示片 | `ai-design-skills/skills/design-to-motion/SKILL.md` |
 | 设计词汇改稿 / 反-slop 评审 / bolder·quieter·distill·critique·audit / 62 条确定性 slop 规则 / 交付前拦 AI 味 | `impeccable/SKILL.md`（references/ 含 24 指令与设计系统，assets/ 含 slop 检测器配置与 token） |
 | 界面评审打磨 / 无障碍·字体·色彩·布局·文案·UI 精修 / 组件状态机·变体·拆解·逆向解释 / 跨域总评审 | `jakubkrehel-skills/skills/`（better-interface 等 14 子技能） |
+| AI 驱动且受 catalog 护栏约束的生成式 UI / JSON Spec → 流式渲染 / React·RN·Vue·Svelte·Solid·3D·邮件·PDF·终端 | `json-render/SKILL.md`（packages/core 模型 + packages/react 渲染器 + skills/ 30 子技能） |
 
 **组合模式（常见）：** Theatre.js 编排转场 + React Spring 做交互反馈 + React PostFX 做画面；
 UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 **审美组合（AI 审美三件套，接口④⑤）**：frontend-design 定审美立场 + taste-skill/garden-skills 供方向素材 + taste-skill look-and-fix 实测验收——专治「AI 味 / 模板脸」；
 **交付前评审组合（接口⑧）**：impeccable 的 `critique`/`audit` + 62 条 slop 规则做客观评审，jakubkrehel `better-*` 做证据驱动精修（`better-interface` 总评审、`better-accessibility` 无障碍、`better-typography` 字体、`better-colors` 色彩、`better-layout` 布局、`better-writing` 文案、`better-ui` 视觉/动效），把「评审先于交付」落成可执行步骤。
+**生成式 UI 组合（接口⑨）**：json-render 的 catalog 护栏让"AI 生成 UI"成为可控输出——配合 oil-ui 定方向、design-to-motion 出展示、impeccable×jakubkrehel 做评审，形成"设计→生成式落地→动效→评审"闭环。
 
 ## 四、全局铁律（跨所有子能力）
 
@@ -141,6 +147,7 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 14. **事实先于设计**（garden web-design-engineer Step 0）：设计涉及具体产品/品牌/技术/版本/时间线时，**先核实再设计**，不凭记忆断言；搜不到或存疑就问用户，禁用"我觉得 X 还没发布 / 应该是 N 版 / X 大概不存在"这类无据表述。
 15. **一页一意图**（landing-page-design）：落地页不是首页——一次 offer → 一类受众 → 一个主行动。禁止首屏多个互相竞争的 CTA、禁止含糊价值主张（"streamline/optimize"）、禁止背景渐变与单侧卡片描边；字号/间距/圆角必须落到 Tailwind 刻度，正文禁用连字符、禁斜体、禁用 900/black 字重。
 16. **评审先于交付**（impeccable × jakubkrehel-skills）：出稿/出码后、声称完成前，先跑一遍**客观评审**：用 impeccable 的 `critique`（打分 UX 评审）+ `audit`（P0–P3 技术质量，含无障碍/性能/主题/响应式）对照 62 条 slop 规则拦 AI 味；再按 jakubkrehel `better-*` 做证据驱动精修（无障碍/字体/色彩/布局/文案/UI），只报有证据的问题、不报纯品味偏好。报告门槛是「有证据」，`Approve` 门槛是「真检查过你声称检查过的东西」。
+17. **生成式 UI 必须 catalog 护栏约束**（json-render）：任何"AI 生成 UI"场景，必须先定义 catalog（声明允许的组件/动作/数据绑定/visibility/validation），让 AI 只生成受约束的 JSON Spec、再交给 renderer 流式渲染——禁止无 catalog 自由生成不可预测 UI；输出须可校验、可回放、失败可降级。
 
 ## 五、分册索引（触发词 → 文件）
 
@@ -165,6 +172,7 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 | `ai-design-skills/skills/design-to-motion/SKILL.md` | design-to-motion、设计稿动画、Figma 动画、截图还原动画、UI 卡片动画、仪表盘动画、hero 动画、展示片、MP4 导出、GIF 导出、motion mockup、showcase loop、空状态加载 |
 | `impeccable/SKILL.md` | impeccable、设计词汇、design vocabulary、bolder、quieter、distill、critique、audit、slop 检测、62 规则、反 AI 味、改稿动词、kinpaku |
 | `jakubkrehel-skills/skills/better-interface/SKILL.md` | jakubkrehel、better-interface、better-accessibility、better-typography、better-colors、better-layout、better-writing、better-ui、interface-review、state-machine、variant、break、组件评审、UI 精修、无障碍评审 |
+| `json-render/SKILL.md` | json-render、generative-ui、生成式 UI、catalog、spec、renderer、@json-render/core、@json-render/react、AI 生成界面、受控 UI、流式渲染、React·RN·Vue·Svelte·Solid·R3F·邮件·PDF·终端 |
 
 ## 六、与其它技能的关系
 
@@ -178,6 +186,7 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 - `ai-design-skills`（第 16/17 项，elayadesign）：**设计演示与转化引擎**——`design-to-motion`（第 16 项）把静态设计稿（Figma/截图/UI 卡片/仪表盘/hero）在空状态加载后逐元素"演出"功能、无缝循环、导出 MP4（X）/ 网页 GIF / 800×500 GIF，是"会动的展示片"专用引擎，与 Theatre.js（编排）、motion-showreel（短视频）互补；`landing-page-design`（第 17 项）是落地页/营销页的转化视角系统（intake 提问 / 页面结构 / 布局选择 / 转化文案 / SEO + 严格视觉规则），与 oil-ui（设计判断）、draw-ui（出稿）互补，补上"营销页/落地页转化率"这块拼图。
 - `impeccable`（第 18 项，pbakaus）：**设计词汇表与反-slop 方向盘**——把审美从形容词变成动词：24 条可执行指令（bolder/quieter/distill/critique/audit…），其中 `critique` 打分 UX 评审、`audit` 出 P0–P3 技术质量报告；另用 62 条确定性规则在交付前拦下 AI slop（紫蓝渐变、Inter 包打一切、卡片套卡片…）。与「AI 审美三件套」互补：frontend-design 给立场、taste-skill/garden-skills 给方向、**impeccable 给改稿动词与客观评审**，三者共同把"像不像 AI"从感觉变成可操作的步骤。
 - `jakubkrehel-skills`（第 19 项，jakubkrehel）：**界面评审与打磨套件**——14 个纯 agent 子技能，覆盖出稿/出码后的证据驱动精修：better-interface（跨域总评审）、better-accessibility/typography/colors/layout/writing/ui（单域打磨）、interface-review（变更评审）、state-machine/variant/break/teardown（组件级工程）、explain-interface/build-design（逆向与转码）。它把铁律 16「评审先于交付」落到实处：只报有证据的问题，不报纯品味偏好。
+- `json-render`（第 20 项，vercel-labs）：**生成式 UI 框架**——把"AI 生成界面"从自由发散收敛为"catalog 护栏约束下的受控 JSON Spec → renderer 流式渲染"：AI 只能使用你 catalog 里声明的组件/动作/数据绑定，输出永远可预测、可校验、失败可降级，覆盖 React/RN/Vue/Svelte/Solid/R3F(3D)/react-email/PDF/Ink(终端)。它补上 cht-ui-skill 在"AI 驱动但可靠"这一层的空白，与 oil-ui（方向）、design-to-motion（展示）、impeccable×jakubkrehel（评审）串联成"设计→生成式落地→动效→评审"闭环。
 - `ui-ux-pro-max`：负责选「风格方向」（风格/配色/字体）；本技能负责把方向**落地**成可运行代码与规范。
 - `web-design-guidelines`（可访问性审计）：可在交付前做质量复核。
 - 本技能是「实践工艺 + 审美哲学 + 工程方法论 + 转化/演示 + 评审打磨」层，与它们构成「审美底座(frontend-design) → 方向选择(风格配方库/研究方向引擎) → 落地页转化视角(landing-page-design) → 设计判断(oil-ui) → 设计稿生成/还原(draw-ui) 或 可拖改原型(m3e-canvas) → 规范制定 → 工程化实现(superpowers) → 动效展示/导出(design-to-motion) → 改稿动词与客观评审(impeccable) → 证据驱动精修(jakubkrehel-skills) → 实测验收(taste-skill) → 可访问性审计」的前端质量闭环。
@@ -230,13 +239,17 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
    声称完成前：跑测试 / 构建 / 检查，附验证证据；有未通过项不得宣称完成
    │
    ▼
-【第五步 · 动效展示导出（design-to-motion，接口⑦，可选）】
+【第五步 · 生成式 UI（json-render，接口⑨，可选）】
+   若需"AI 驱动但受 catalog 护栏约束"的生成式 UI：先定 catalog → AI 生成受约束 JSON Spec → renderer 流式渲染（见 json-render/SKILL.md）
+   │
+   ▼
+【第六步 · 动效展示导出（design-to-motion，接口⑦，可选）】
    若需"会动的展示片"（社媒 MP4 / 网页 GIF / 800×500 小 GIF / 落地页 hero·bento 卡片循环）：
    把静态设计稿（Figma/截图/UI 卡片/仪表盘/hero）按 design-to-motion 流程像素级复刻 →
    空状态加载 → 每视觉演出其功能 → 无缝循环 → 导出 MP4(X)/网页 GIF/800×500 GIF
    │
    ▼
-【第六步 · 交付前评审（impeccable × jakubkrehel-skills，接口⑧，必做）】
+【第七步 · 交付前评审（impeccable × jakubkrehel-skills，接口⑧，必做）】
    出稿/出码后、手动交付前，跑客观评审闭环：
    · impeccable：critique（打分 UX 评审，排出先修项）+ audit（P0–P3 技术质量：无障碍/性能/主题/响应式）
      + 对照 62 条确定性 slop 规则拦 AI 味（assets/detector-config.json）
@@ -298,7 +311,16 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 2. 有未通过项：不得宣称完成，修复后重跑直至通过；无法自动化验证的（视觉还原度等），明确列出人工核对项。
 3. 验证范围与结果、仍存在的缺口，随交付说明一起给出。
 
-### 第五步·动效展示导出（design-to-motion，可选）
+### 第五步·生成式 UI（json-render，可选）
+
+适用：需要「AI 驱动、但受 catalog 护栏约束」的生成式 UI——让 AI 只生成你 catalog 里声明的组件/动作/数据绑定，输出可控、可校验、失败可降级，覆盖 React/RN/Vue/Svelte/Solid/R3F(3D)/react-email/PDF/Ink(终端)。
+
+1. 读 `json-render/SKILL.md` 建立 catalog→spec→renderer 心智；先读 `packages/core/README.md` 与 `packages/core/src/` 弄清 catalog（组件/动作/数据绑定/visibility/validation 护栏）怎么写。
+2. 按目标框架读 `skills/<framework>/SKILL.md`（react / next / react-native / react-three-fiber / react-email / react-pdf / vue / svelte / solid / ink…）拿该框架的 catalog 写法与 agent 子技能。
+3. 以 `examples/chat/` 为参考：看 `lib/render`（spec→UI）、`lib/tools`（catalog 里的动作）、`components/ui`（被 catalog 声明的组件）如何配合。
+4. 铁律 17 不可破：必须先有 catalog 护栏，再让 AI 生成受约束 JSON Spec，最后 renderer 流式渲染；禁止无 catalog 自由生成不可预测 UI。
+
+### 第六步·动效展示导出（design-to-motion，可选）
 
 适用：设计稿/落地页/官网里需要"会动的展示片"——社媒视频（X/Twitter 的 MP4）、网页内嵌 GIF、800×500 小 GIF，或落地页 hero / bento 卡片的入场与故事循环。
 
@@ -307,7 +329,7 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 3. 按 PART C 用确定性逐帧捕获（`?capture` + 假时钟，禁用实时录屏）导出 `<name>-x.mp4`、`-loop.gif`、`-800x500.gif`。
 4. 交付三件套（MP4/GIF）+ 保真度与溢出检查结果；Showcase 走导出，Website 则把动画片段嵌回站点代码（仅当用户要求时才导出）。
 
-### 第六步·交付前评审（impeccable × jakubkrehel-skills，接口⑧，必做）
+### 第七步·交付前评审（impeccable × jakubkrehel-skills，接口⑧，必做）
 
 无论走快速还是工程模式、无论是否做动效展示，出稿/出码后、手动交付前都必须跑这一闭环（对应铁律 16）：
 

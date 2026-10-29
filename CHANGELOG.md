@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## v1.5.0 — 2026-10-29
+
+**新增（生成式 UI 框架，来源 `vercel-labs/json-render`，⭐ ~18.8k，Apache-2.0）**
+- 第 20 项能力 `json-render/`：Vercel 出品的 Generative UI 框架——定义 **catalog**（组件/动作/数据绑定/visibility/validation 护栏）→ AI 生成**受约束的 JSON Spec** → **renderer** 流式渲染；覆盖 React/RN/Vue/Svelte/Solid/R3F(3D)/react-email/PDF/Ink(终端)，让"AI 生成 UI"可预测、可校验、失败可降级。**精选参考型嫁接**：收 `packages/core`（catalog/spec 模型灵魂）+ `packages/react`（主流渲染器）+ `skills/`（30 个 agent 子技能全集）+ `examples/chat`（最小可运行示例）+ 根文档与 LICENSE；未收整仓其余 36 包/apps/23 示例（整仓 ~14M）。新增入口 `json-render/SKILL.md`（嫁接索引，Apache-2.0 归属上游）。
+
+**变更（深入嫁接，非仅入表）**
+- 内置工作流新增**第五步·生成式 UI（json-render，可选，接口⑨）**：先定 catalog → AI 生成受约束 JSON Spec → renderer 流式渲染；原动效展示导出顺延为第六步、交付前评审顺延为第七步。
+- 全局铁律新增 1 条：17 生成式 UI 必须 catalog 护栏约束（json-render，禁止无 catalog 自由生成不可预测 UI）。
+- 组合模式新增「生成式 UI 组合（接口⑨）」：json-render 的 catalog 护栏让"AI 生成 UI"成为可控输出，与 oil-ui 定方向、design-to-motion 出展示、impeccable×jakubkrehel 做评审串联成"设计→生成式落地→动效→评审"闭环。
+- README 与 SKILL.md 同步：能力表 19 → 20、frontmatter description / tags（generative-ui / json-render）、决策树、触发词索引、「与其它技能的关系」（定位为生成式 UI 框架层）、工作流新增第五步；版本号 1.4.0 → 1.5.0。
+
 ## v1.4.0 — 2026-10-29
 
 **新增（设计词汇表与界面评审打磨，来源 A 方案执行）**

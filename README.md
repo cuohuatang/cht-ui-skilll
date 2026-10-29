@@ -1,6 +1,6 @@
 # cht-ui-skill
 
-一站式前端视觉与动效技能集，融合 19 大能力，并内置一条「审美打底 → 出方案矩阵 → 出稿（静态稿 / 可拖改原型）→ 生成可运行代码（快速 / 工程模式）→ 完成前验证 → 动效展示导出 → 交付前评审（impeccable × jakubkrehel-skills）→ 实测验收」的编排工作流。
+一站式前端视觉与动效技能集，融合 20 大能力，并内置一条「审美打底 → 出方案矩阵 → 出稿（静态稿 / 可拖改原型）→ 生成可运行代码（快速 / 工程模式）→ 完成前验证 → 生成式 UI（json-render）→ 动效展示导出 → 交付前评审（impeccable × jakubkrehel-skills）→ 实测验收」的编排工作流。
 
 ## 工作流（内置）
 
@@ -19,14 +19,16 @@ oil-ui + 8 大分册 → 出「风格 × 技术」方案矩阵（默认 6-9 版�
    ↓
 第四步：完成前验证（跑测试/构建，附验证证据）
    ↓
-第五步（可选）：design-to-motion 把设计稿做成会动的展示片，导出 MP4/GIF（接口⑦）
+第五步（可选）：json-render 生成式 UI——先定 catalog 护栏 → AI 生成受约束 JSON Spec → renderer 流式渲染（接口⑨）
    ↓
-第六步（必做）：impeccable critique/audit + 62 条 slop 规则 + jakubkrehel better-* 证据驱动精修（接口⑧）
+第六步（可选）：design-to-motion 把设计稿做成会动的展示片，导出 MP4/GIF（接口⑦）
+   ↓
+第七步（必做）：impeccable critique/audit + 62 条 slop 规则 + jakubkrehel better-* 证据驱动精修（接口⑧）
    ↓
 你手动接进项目、git 提交、部署
 ```
 
-## 19 大能力
+## 20 大能力
 
 | # | 能力 | 开源来源 | 一句话 |
 |---|------|----------|--------|
@@ -49,6 +51,7 @@ oil-ui + 8 大分册 → 出「风格 × 技术」方案矩阵（默认 6-9 版�
 | 17 | landing-page-design 高转化落地页 | `elayadesign/ai-design-skills` | 落地页/营销页系统：intake/结构/布局/转化文案/SEO + 严格视觉规则 |
 | 18 | impeccable 设计词汇表 / 反-slop 方向盘 | `pbakaus/impeccable` | 24 条改稿指令（bolder/quieter/critique/audit…）+ 62 条确定性 slop 规则 + 客观评审（参考型嫁接） |
 | 19 | jakubkrehel-skills 界面评审打磨套件 | `jakubkrehel/skills` | 14 子技能：better-interface/accessibility/typography/colors/layout/writing/ui、interface-review、state-machine、variant、break 等 |
+| 20 | json-render 生成式 UI 框架 | `vercel-labs/json-render` | 定义 catalog（组件/动作/数据绑定护栏）→ AI 生成受约束 JSON Spec → renderer 流式渲染；覆盖 React/RN/Vue/Svelte/Solid/R3F/邮件/PDF/终端；让"AI 生成 UI"可预测、可校验（参考型嫁接：packages/core+react、skills/ 全 30 子技能、examples/chat） |
 
 ## 安装
 
@@ -75,5 +78,6 @@ cht-ui-skill/
 ├── ai-design-skills/        # 第 16/17 项：设计演示与转化引擎（skills/design-to-motion + skills/landing-page-design）
 ├── garden-skills/           # 第 15 项：风格配方库 + 6 技能（skills/ + README + LICENSE）
 ├── impeccable/              # 第 18 项：设计词汇表与反-slop 方向盘（SKILL.md + references/ + assets/）
-└── jakubkrehel-skills/      # 第 19 项：界面评审打磨套件（SKILL.md + skills/ 14 子技能 + LICENSE）
+├── jakubkrehel-skills/      # 第 19 项：界面评审打磨套件（SKILL.md + skills/ 14 子技能 + LICENSE）
+└── json-render/            # 第 20 项：生成式 UI 框架（SKILL.md + packages/core+react + skills/ 30 子技能 + examples/chat + LICENSE），来源 vercel-labs/json-render（Apache-2.0）
 ```
