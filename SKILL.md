@@ -2,11 +2,11 @@
 name: cht-ui-skill
 display_name: "CHT 前端视觉与动效技能集"
 display_name_en: "CHT UI Skills"
-description: "一站式前端视觉与动效技能集，融合 15 大能力：p5.js 创意编码、CSS Doodle 图案生成、Theatre.js 时间轴编排、React Spring 物理动画、Inure 精致微交互、UI-UX Craft 设计规范工艺、React PostFX 后期特效、Chakra UI 组件系统、oil-ui 界面设计/改版/评审、draw-ui 设计稿生成与截图还原、m3e-canvas 可拖拽 UI 设计、superpowers 开发方法论（头脑风暴/计划/TDD/调试/验证/评审）、frontend-design 设计哲学（Anthropic 官方，反 AI 默认陷阱）、taste-skill 研究方向引擎（脚本发牌 + 反 slop 实测）、garden-skills 风格配方库（25 种风格 + 6 技能）。按任务路由到对应分册。"
-description_zh: "cht-ui-skill：前端视觉/动效/设计/工程/审美全家桶——创意编码、生成图案、动画编排、物理动画、微交互、设计规范、后期特效、组件系统、界面设计评审、设计稿生成还原、可拖拽 UI 设计、开发方法论（TDD/计划/验证/评审）、设计哲学（反 AI 味）、研究方向引擎、25 种风格配方"
-description_en: "cht-ui-skill: a frontend visual & motion toolkit covering p5.js, css-doodle, Theatre.js, React Spring, Inure micro-interactions, UI/UX craft, React PostFX, Chakra UI, oil-ui design/review, draw-ui design-to-code, m3e-canvas draggable UI design, superpowers dev methodology, Anthropic frontend-design philosophy, taste-skill direction engine, and garden-skills style recipes."
+description: "一站式前端视觉与动效技能集，融合 19 大能力：p5.js 创意编码、CSS Doodle 图案生成、Theatre.js 时间轴编排、React Spring 物理动画、Inure 精致微交互、UI-UX Craft 设计规范工艺、React PostFX 后期特效、Chakra UI 组件系统、oil-ui 界面设计/改版/评审、draw-ui 设计稿生成与截图还原、m3e-canvas 可拖拽 UI 设计、superpowers 开发方法论（头脑风暴/计划/TDD/调试/验证/评审）、frontend-design 设计哲学（Anthropic 官方，反 AI 默认陷阱）、taste-skill 研究方向引擎（脚本发牌 + 反 slop 实测）、garden-skills 风格配方库（25 种风格 + 6 技能）、ai-design-skills 设计演示与转化引擎（design-to-motion 静态设计稿→像素级 HTML 复刻并导出 MP4/GIF 展示片、landing-page-design 高转化落地页完整系统）、impeccable 设计词汇表与反-slop 方向盘（24 条改稿指令 + 62 条确定性反-slop 规则 + critique/audit 评审）、jakubkrehel-skills 界面评审打磨套件（14 子技能：better-interface/accessibility/typography/colors/layout/writing/ui、interface-review、state-machine、variant、break 等）。按任务路由到对应分册。"
+description_zh: "cht-ui-skill：前端视觉/动效/设计/工程/审美全家桶——创意编码、生成图案、动画编排、物理动画、微交互、设计规范、后期特效、组件系统、界面设计评审、设计稿生成还原、可拖拽 UI 设计、开发方法论（TDD/计划/验证/评审）、设计哲学（反 AI 味）、研究方向引擎、25 种风格配方、设计稿动效展示（MP4/GIF 导出）、高转化落地页系统、设计词汇表（24 改稿指令 + 62 反-slop 规则 + critique/audit 评审）、界面评审打磨（无障碍/字体/色彩/布局/文案/UI 精修 + 组件状态机/变体）"
+description_en: "cht-ui-skill: a frontend visual & motion toolkit covering p5.js, css-doodle, Theatre.js, React Spring, Inure micro-interactions, UI/UX craft, React PostFX, Chakra UI, oil-ui design/review, draw-ui design-to-code, m3e-canvas draggable UI design, superpowers dev methodology, Anthropic frontend-design philosophy, taste-skill direction engine, garden-skills style recipes, ai-design-skills demo/conversion engine (design-to-motion, landing-page-design), impeccable design-vocabulary & anti-slop steerer (24 steer commands + 62 deterministic slop rules + critique/audit), and jakubkrehel-skills interface review/polish suite (14 sub-skills)."
 category: frontend
-version: 1.2.0
+version: 1.4.0
 author: cuohuatang
 tags:
   - frontend
@@ -31,15 +31,27 @@ tags:
   - garden-skills
   - style-recipes
   - art-direction
+  - ai-design-skills
+  - landing-page
+  - design-to-motion
+  - motion-export
+  - conversion
+  - impeccable
+  - jakubkrehel-skills
+  - better-interface
+  - design-vocabulary
+  - review
+  - accessibility
+  - ui-polish
 allowed-tools: Read,Write,Bash
 ---
 
 # cht-ui-skill —— 前端视觉与动效技能集
 
-> 把 15 个前端视觉/动效/设计/工程能力**嫁接成一个技能包**。每个能力都是对应知名开源项目（或官方/策展来源）的实战工艺指南，
+> 把 19 个前端视觉/动效/设计/工程能力**嫁接成一个技能包**。每个能力都是对应知名开源项目（或官方/策展来源）的实战工艺指南，
 > 本文件是**总入口与路由**，具体 API、模板、配方都在 `references/` 分册里（渐进披露，按需读取）。
 
-## 一、15 大能力一览
+## 一、19 大能力一览
 
 | # | 能力 | 开源来源 | 一句话 |
 |---|------|----------|--------|
@@ -58,6 +70,10 @@ allowed-tools: Read,Write,Bash
 | 13 | **frontend-design 设计哲学** | `anthropics/skills`（Anthropic 官方） | 设计宪法：像设计工作室主设那样思考，避开 5 大 AI 默认陷阱，两遍流程（先 token 设计计划 → 审校 → 再写码） |
 | 14 | **taste-skill 研究方向引擎** | `Leonxlnx/taste-skill` | 从 247 个策展画廊站提炼：脚本发牌 20 个研究方向、严格 no-slop 房规、真实浏览器 inspect、三宽度截图 look-and-fix 循环 |
 | 15 | **garden-skills 风格配方库** | `ConardLi/garden-skills` | web-design-engineer 内置 25 种风格配方（Linear/Aesop/Pentagram/Stripe…）+ 设计工程师全流程；另含视频演示/图像生成/文章排版/知识检索/动效展示共 6 技能 |
+| 16 | **design-to-motion 设计稿动效展示** | `elayadesign/ai-design-skills` | 静态设计稿（Figma/截图/UI 卡片/仪表盘/hero）→ 像素级 HTML 复刻 → 每个视觉"演出"其功能（图表被读、列表进项、prompt 被打字）→ 无缝循环 → 导出 MP4（X）/ 网页 GIF / 800×500 GIF |
+| 17 | **landing-page-design 高转化落地页** | `elayadesign/ai-design-skills` | 落地页/营销页完整系统：intake 提问、页面结构、布局选择、转化文案、SEO + 严格视觉规则（字体/间距/圆角/背景/hero/图标/动效）；核心理念 one offer → one audience → one primary action |
+| 18 | **impeccable 设计词汇表 / 反-slop 方向盘** | `pbakaus/impeccable`（⭐ ~92.8k） | 编码 Agent 的「设计词汇表」：24 条可执行改稿指令（bolder/quieter/distill/critique/audit…）+ 62 条确定性反-slop 规则 + critique/audit 评审；给 AI 审美补「改稿动词」与客观验收闭环（参考型嫁接：收人读词汇/规则，不含 Rust 引擎） |
+| 19 | **jakubkrehel-skills 界面评审打磨套件** | `jakubkrehel/skills`（⭐ ~9k） | 14 个纯 agent 子技能：better-interface/accessibility/typography/colors/layout/writing/ui、interface-review、explain-interface、break、build-design、teardown、state-machine、variant；补全出稿/出码后的证据驱动精修与评审 |
 
 ## 二、什么时候用 / 不要用
 
@@ -70,6 +86,10 @@ allowed-tools: Read,Write,Bash
 若要为设计确立**「不像 AI」的审美哲学**（主题优先、避默认字体、避开 5 大 AI 默认陷阱、两遍流程），读 `frontend-design/SKILL.md`（第 13 项）作为审美底座。
 若要**脚本化生成并筛选研究方向**（发牌 20 个已研究方向、反 slop 房规、真实浏览器 inspect、三宽度截图 look-and-fix），路由到 `taste-skill/SKILL.md`（第 14 项）。
 若要**套用 25 种具体风格配方**（Linear/Aesop/Pentagram/Stripe…）或走设计工程师全流程（含 Step 0 事实核查、Design Direction Advisor 模式），路由到 `garden-skills/skills/web-design-engineer/SKILL.md`（第 15 项）。
+若要做**高转化落地页 / 营销页 / 含转化目标的页面与组件**（intake 提问、页面结构、布局选择、转化文案、SEO、严格视觉规则），路由到 `ai-design-skills/skills/landing-page-design/SKILL.md`（第 17 项）。
+若要把**静态设计稿变成会动的展示片**（Figma/截图/UI 卡片/仪表盘/hero 动画，导出 MP4/GIF 用于社媒或落地页动效），路由到 `ai-design-skills/skills/design-to-motion/SKILL.md`（第 16 项）。
+若要给设计稿/出码界面做**「设计词汇」级的改稿与反-slop 评审**（用 bolder/quieter/distill/critique/audit 等 24 条指令把审美从形容词变动词，按 62 条确定性规则拦下 AI slop），路由到 `impeccable/SKILL.md`（第 18 项）。
+若已出稿/出码、需要**证据驱动的界面评审与打磨**（无障碍/字体/色彩/布局/文案/UI 精修，或组件状态机/变体/拆解/逆向解释），路由到 `jakubkrehel-skills/skills/` 下对应子技能（第 19 项），或先走 `jakubkrehel-skills/skills/better-interface/SKILL.md` 做跨域总评审。
 
 **不用：** 纯后端、纯业务逻辑、与视觉/交互无关的任务无需激活。若只是静态样式微调（颜色/间距），
 可走 `ui-ux-craft` 分册的 token 规范；若需要选整体设计风格方向，与 `ui-ux-pro-max` 互补（它选方向，本技能落地）。
@@ -93,10 +113,15 @@ allowed-tools: Read,Write,Bash
 | 确立「不像 AI」的审美哲学 / 避开默认字体与默认陷阱 / 设计前先定 token 计划并审校 | `frontend-design/SKILL.md` |
 | 脚本化生成研究方向 / 反 slop 房规 / 真实浏览器 inspect / 三宽度截图 look-and-fix | `taste-skill/SKILL.md`（含 `library/` 20 方向、`references/`、`scripts/`） |
 | 套用 25 种风格配方 / 设计工程师全流程 / Step 0 事实核查 / Design Direction Advisor / 网页视频演示·图像生成·文章排版·知识检索 | `garden-skills/skills/`（web-design-engineer 等 6 技能） |
+| 高转化落地页 / 营销页 / 含转化目标的页面 / 落地页文案与视觉规则 | `ai-design-skills/skills/landing-page-design/SKILL.md`（含严格视觉规则表） |
+| 静态设计稿动画化 / Figma·截图·UI 卡片·仪表盘"演出"功能 / 导出 MP4·GIF 展示片 | `ai-design-skills/skills/design-to-motion/SKILL.md` |
+| 设计词汇改稿 / 反-slop 评审 / bolder·quieter·distill·critique·audit / 62 条确定性 slop 规则 / 交付前拦 AI 味 | `impeccable/SKILL.md`（references/ 含 24 指令与设计系统，assets/ 含 slop 检测器配置与 token） |
+| 界面评审打磨 / 无障碍·字体·色彩·布局·文案·UI 精修 / 组件状态机·变体·拆解·逆向解释 / 跨域总评审 | `jakubkrehel-skills/skills/`（better-interface 等 14 子技能） |
 
 **组合模式（常见）：** Theatre.js 编排转场 + React Spring 做交互反馈 + React PostFX 做画面；
 UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
-**审美组合（AI 审美三件套，接口④⑤）**：frontend-design 定审美立场 + taste-skill/garden-skills 供方向素材 + taste-skill look-and-fix 实测验收——专治「AI 味 / 模板脸」。
+**审美组合（AI 审美三件套，接口④⑤）**：frontend-design 定审美立场 + taste-skill/garden-skills 供方向素材 + taste-skill look-and-fix 实测验收——专治「AI 味 / 模板脸」；
+**交付前评审组合（接口⑧）**：impeccable 的 `critique`/`audit` + 62 条 slop 规则做客观评审，jakubkrehel `better-*` 做证据驱动精修（`better-interface` 总评审、`better-accessibility` 无障碍、`better-typography` 字体、`better-colors` 色彩、`better-layout` 布局、`better-writing` 文案、`better-ui` 视觉/动效），把「评审先于交付」落成可执行步骤。
 
 ## 四、全局铁律（跨所有子能力）
 
@@ -114,6 +139,8 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 12. **反 AI 默认陷阱**（frontend-design）：动笔前先识别并避开 AI 生成界面的 5 大默认特征——① 米白底(#F4F1EA)+高对比衬线+陶土/暖橙强调；② 近黑底+单一荧光绿/朱红强调；③ 报纸式细线密集分栏、零圆角；④ SaaS 卡片套件（同一圆角/同一灰阴影/渐变装饰）；⑤ 模板铬件（全大写 eyebrow、"A · B · C" 中点串、"词—片段"破折号标签、等宽小数据标签、链接文字后加 "→"）。这些对某些 brief 合法，但若是「默认」而非「为这个 brief 做的选择」就不要用。
 13. **实测而非空想**（taste-skill）：设计好坏靠**真实浏览器测量与截图**判定，不凭感觉——用 `taste-skill/scripts/inspect.mjs` 量排版，走「三宽度截图 → 评审 rubric → fix → 再看」的 look-and-fix 循环；没在浏览器里亲眼看过自己做的页面，不算做完。
 14. **事实先于设计**（garden web-design-engineer Step 0）：设计涉及具体产品/品牌/技术/版本/时间线时，**先核实再设计**，不凭记忆断言；搜不到或存疑就问用户，禁用"我觉得 X 还没发布 / 应该是 N 版 / X 大概不存在"这类无据表述。
+15. **一页一意图**（landing-page-design）：落地页不是首页——一次 offer → 一类受众 → 一个主行动。禁止首屏多个互相竞争的 CTA、禁止含糊价值主张（"streamline/optimize"）、禁止背景渐变与单侧卡片描边；字号/间距/圆角必须落到 Tailwind 刻度，正文禁用连字符、禁斜体、禁用 900/black 字重。
+16. **评审先于交付**（impeccable × jakubkrehel-skills）：出稿/出码后、声称完成前，先跑一遍**客观评审**：用 impeccable 的 `critique`（打分 UX 评审）+ `audit`（P0–P3 技术质量，含无障碍/性能/主题/响应式）对照 62 条 slop 规则拦 AI 味；再按 jakubkrehel `better-*` 做证据驱动精修（无障碍/字体/色彩/布局/文案/UI），只报有证据的问题、不报纯品味偏好。报告门槛是「有证据」，`Approve` 门槛是「真检查过你声称检查过的东西」。
 
 ## 五、分册索引（触发词 → 文件）
 
@@ -134,6 +161,10 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 | `frontend-design/SKILL.md` | frontend-design、设计哲学、审美宪法、反 AI 味、避开默认陷阱、design lead、token 设计计划、typography |
 | `taste-skill/SKILL.md` | taste-skill、design-taste-frontend、研究方向、反 slop、no-slop、draw.mjs 发牌、浏览器实测、look-and-fix、AI tells、premium、award-level |
 | `garden-skills/skills/web-design-engineer/SKILL.md` | garden-skills、web-design-engineer、风格配方、style-recipes、Linear/Aesop/Pentagram/Stripe、设计工程师、事实核查、Design Direction Advisor、网页视频演示、图像生成、文章排版、知识检索 |
+| `ai-design-skills/skills/landing-page-design/SKILL.md` | landing-page-design、落地页、营销页、转化、landing page、CTA、hero、SEO、AEO、intake、转化文案、页面结构、布局选择、one offer、one audience |
+| `ai-design-skills/skills/design-to-motion/SKILL.md` | design-to-motion、设计稿动画、Figma 动画、截图还原动画、UI 卡片动画、仪表盘动画、hero 动画、展示片、MP4 导出、GIF 导出、motion mockup、showcase loop、空状态加载 |
+| `impeccable/SKILL.md` | impeccable、设计词汇、design vocabulary、bolder、quieter、distill、critique、audit、slop 检测、62 规则、反 AI 味、改稿动词、kinpaku |
+| `jakubkrehel-skills/skills/better-interface/SKILL.md` | jakubkrehel、better-interface、better-accessibility、better-typography、better-colors、better-layout、better-writing、better-ui、interface-review、state-machine、variant、break、组件评审、UI 精修、无障碍评审 |
 
 ## 六、与其它技能的关系
 
@@ -144,16 +175,19 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 - `frontend-design`（第 13 项，Anthropic 官方）：**审美哲学底座**——像设计工作室主设那样思考：主题优先、避默认字体、列出并避开 5 大 AI 默认陷阱、两遍流程（先 token 设计计划 → 审校 → 再写码）。它回答「怎么思考才不像 AI」，供所有设计/出稿环节做审美校准。
 - `taste-skill`（第 14 项）：**研究方向引擎**——`scripts/draw.mjs` 从 247 个策展站提炼的 20 个研究方向里发牌 3 个供选，`library/` 提供 type/palette/hero/section 蓝图，`scripts/inspect.mjs` 在真实浏览器里量排版，走三宽度截图 + rubric + fix 的 look-and-fix 循环。与 oil-ui 互补：oil-ui 做设计**判断**，taste-skill 提供**可执行的方向素材与反 slop 验收**。
 - `garden-skills`（第 15 项）：**风格配方库 + 设计工程师全流程**——`web-design-engineer` 内置 25 种锚定风格配方（Linear/Aesop/Pentagram/Bloomberg/Stripe…，各含调色板/字体/手法/反模式）、Step 0 事实核查、需求模糊时切 Design Direction Advisor 模式；另含 `web-video-presentation`（网页视频演示）、`gpt-image-2`（图像生成）、`beautiful-article`（文章排版）、`kb-retriever`（知识检索）、`motion-showreel`（动效展示）。是「具体风格从哪来」的弹药库。
+- `ai-design-skills`（第 16/17 项，elayadesign）：**设计演示与转化引擎**——`design-to-motion`（第 16 项）把静态设计稿（Figma/截图/UI 卡片/仪表盘/hero）在空状态加载后逐元素"演出"功能、无缝循环、导出 MP4（X）/ 网页 GIF / 800×500 GIF，是"会动的展示片"专用引擎，与 Theatre.js（编排）、motion-showreel（短视频）互补；`landing-page-design`（第 17 项）是落地页/营销页的转化视角系统（intake 提问 / 页面结构 / 布局选择 / 转化文案 / SEO + 严格视觉规则），与 oil-ui（设计判断）、draw-ui（出稿）互补，补上"营销页/落地页转化率"这块拼图。
+- `impeccable`（第 18 项，pbakaus）：**设计词汇表与反-slop 方向盘**——把审美从形容词变成动词：24 条可执行指令（bolder/quieter/distill/critique/audit…），其中 `critique` 打分 UX 评审、`audit` 出 P0–P3 技术质量报告；另用 62 条确定性规则在交付前拦下 AI slop（紫蓝渐变、Inter 包打一切、卡片套卡片…）。与「AI 审美三件套」互补：frontend-design 给立场、taste-skill/garden-skills 给方向、**impeccable 给改稿动词与客观评审**，三者共同把"像不像 AI"从感觉变成可操作的步骤。
+- `jakubkrehel-skills`（第 19 项，jakubkrehel）：**界面评审与打磨套件**——14 个纯 agent 子技能，覆盖出稿/出码后的证据驱动精修：better-interface（跨域总评审）、better-accessibility/typography/colors/layout/writing/ui（单域打磨）、interface-review（变更评审）、state-machine/variant/break/teardown（组件级工程）、explain-interface/build-design（逆向与转码）。它把铁律 16「评审先于交付」落到实处：只报有证据的问题，不报纯品味偏好。
 - `ui-ux-pro-max`：负责选「风格方向」（风格/配色/字体）；本技能负责把方向**落地**成可运行代码与规范。
 - `web-design-guidelines`（可访问性审计）：可在交付前做质量复核。
-- 本技能是「实践工艺 + 审美哲学 + 工程方法论」层，与它们构成「审美底座(frontend-design) → 方向选择(风格配方库/研究方向引擎) → 设计判断(oil-ui) → 设计稿生成/还原(draw-ui) 或 可拖改原型(m3e-canvas) → 规范制定 → 工程化实现(superpowers) → 实测验收(taste-skill) → 可访问性审计」的前端质量闭环。
+- 本技能是「实践工艺 + 审美哲学 + 工程方法论 + 转化/演示 + 评审打磨」层，与它们构成「审美底座(frontend-design) → 方向选择(风格配方库/研究方向引擎) → 落地页转化视角(landing-page-design) → 设计判断(oil-ui) → 设计稿生成/还原(draw-ui) 或 可拖改原型(m3e-canvas) → 规范制定 → 工程化实现(superpowers) → 动效展示/导出(design-to-motion) → 改稿动词与客观评审(impeccable) → 证据驱动精修(jakubkrehel-skills) → 实测验收(taste-skill) → 可访问性审计」的前端质量闭环。
 
 ## 七、内置工作流：出方案矩阵 → 出稿（静态稿 / 可拖改原型）→ 生成可运行代码（快速 / 工程模式）
 
 > 适用：用户说"做个界面 / 设计个页面 / 想看看几种风格"，但**还没定方向**，需要先看方案、再出正式稿、最后还要能跑起来的代码。
 > 这条流水线把「方向（oil-ui）× 技术气质（8 大分册）× 交互形态（draw-ui 静态稿 / m3e-canvas 可拖改原型）」组合成**方案矩阵**，
 > 第一步后设一道人工确认闸门，第二步按用户偏好走**分支甲（静态精细稿）或分支乙（可拖改原型）**，第三步进入代码生成
-> （**快速模式**或接 superpowers 的**工程模式**），第四步完成前验证（superpowers 铁律）。
+> （**快速模式**或接 superpowers 的**工程模式**），第四步完成前验证（superpowers 铁律）。若交付物是落地页/营销页，可在出稿前插 **landing-page-design（接口⑥）** 定转化结构与文案；出稿/出码后若需社媒展示片，可插 **design-to-motion（接口⑦）** 生成会动的 MP4/GIF；**第六步（接口⑧）无论哪条路径都必须跑** impeccable × jakubkrehel-skills 的交付前评审闭环，把 AI 味与质量问题在交付前拦下。
 
 **整体流向：**
 
@@ -170,6 +204,7 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
    · 交互形态：静态稿（draw-ui）或 可拖改原型（m3e-canvas）
    → 组合成「风格 × 技术 × 形态」候选集（默认 6–9 版，可要求十几版）
    → 做成首屏对比页交给用户挑
+   · 若交付物是落地页/营销页 → 先触发 landing-page-design 定转化结构/文案/视觉规则（接口⑥），再进第二/三步
    │
    ▼
 ★ 第一步收尾闸门（必须询问）★
@@ -193,6 +228,21 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
    ▼
 【第四步 · 完成前验证（接口③，superpowers 铁律）】
    声称完成前：跑测试 / 构建 / 检查，附验证证据；有未通过项不得宣称完成
+   │
+   ▼
+【第五步 · 动效展示导出（design-to-motion，接口⑦，可选）】
+   若需"会动的展示片"（社媒 MP4 / 网页 GIF / 800×500 小 GIF / 落地页 hero·bento 卡片循环）：
+   把静态设计稿（Figma/截图/UI 卡片/仪表盘/hero）按 design-to-motion 流程像素级复刻 →
+   空状态加载 → 每视觉演出其功能 → 无缝循环 → 导出 MP4(X)/网页 GIF/800×500 GIF
+   │
+   ▼
+【第六步 · 交付前评审（impeccable × jakubkrehel-skills，接口⑧，必做）】
+   出稿/出码后、手动交付前，跑客观评审闭环：
+   · impeccable：critique（打分 UX 评审，排出先修项）+ audit（P0–P3 技术质量：无障碍/性能/主题/响应式）
+     + 对照 62 条确定性 slop 规则拦 AI 味（assets/detector-config.json）
+   · jakubkrehel-skills：better-interface 跨域总评审 → better-accessibility/typography/colors/layout/writing/ui
+     做证据驱动精修；只报有证据的问题，不报纯品味偏好（详见铁律 16）
+   → 修复 P0/P1 后再交付
    │
    ▼
 【你手动接进项目 → git 提交 → 部署】
@@ -247,6 +297,24 @@ UI-UX Craft 定 token 与状态规范作为其它所有能力的统一底座；
 1. **声称"完成"前**：必须运行最小验证集——测试（vitest/jest/对应测试框架）、构建（tsc/build）、检查（lint/typecheck），把命令输出作为**验证证据**附在交付说明里。
 2. 有未通过项：不得宣称完成，修复后重跑直至通过；无法自动化验证的（视觉还原度等），明确列出人工核对项。
 3. 验证范围与结果、仍存在的缺口，随交付说明一起给出。
+
+### 第五步·动效展示导出（design-to-motion，可选）
+
+适用：设计稿/落地页/官网里需要"会动的展示片"——社媒视频（X/Twitter 的 MP4）、网页内嵌 GIF、800×500 小 GIF，或落地页 hero / bento 卡片的入场与故事循环。
+
+1. 读 `ai-design-skills/skills/design-to-motion/SKILL.md`：先确定上下文（Showcase 导出视频 vs Website 嵌入站点代码），再按 PART A 做像素级复刻（Figma 走 REST API、截图则逐元素重建/剥离/裁切），用 `?still` 比对参考帧（PSNR 达标）后再动。
+2. 按 PART B 做动效：空状态加载（rise + blur）、每个视觉演出其功能（图表被读、列表进项、prompt 打字…）、无缝循环；尊重 `prefers-reduced-motion`。
+3. 按 PART C 用确定性逐帧捕获（`?capture` + 假时钟，禁用实时录屏）导出 `<name>-x.mp4`、`-loop.gif`、`-800x500.gif`。
+4. 交付三件套（MP4/GIF）+ 保真度与溢出检查结果；Showcase 走导出，Website 则把动画片段嵌回站点代码（仅当用户要求时才导出）。
+
+### 第六步·交付前评审（impeccable × jakubkrehel-skills，接口⑧，必做）
+
+无论走快速还是工程模式、无论是否做动效展示，出稿/出码后、手动交付前都必须跑这一闭环（对应铁律 16）：
+
+1. **改稿动词与客观评审（impeccable）**：读 `impeccable/SKILL.md` 与 `references/README.md`（24 指令全表）。先按需求挑窄目标下达动词——`bolder`/`quieter`/`distill`/`colorize`/`typeset`/`layout`/`animate`；再做 `critique`（打分 UX 评审，排出先修项）与 `audit`（P0–P3 技术质量：无障碍 / 性能 / 主题 / 响应式）；对照 `assets/detector-config.json` 的 62 条确定性 slop 规则自检 AI 味（Inter 包打、紫蓝渐变、卡片套卡片、灰字压彩底、标题上方圆角图标瓦片等）。
+2. **证据驱动精修（jakubkrehel-skills）**：先跑 `jakubkrehel-skills/skills/better-interface/SKILL.md` 做跨域总评审，再按它路由到 `better-accessibility`（WCAG 2.2）、`better-typography`、`better-colors`、`better-layout`、`better-writing`、`better-ui`。原则：只报有证据的问题，纯品味偏好不算 finding；先 recon 项目框架/token/视口，用项目自身惯用法写修复。
+3. **收敛**：先修 P0（阻断级）与 P1，P2/P3 酌情；修复后重跑评审确认无回归，再交手动接入。
+4. 把评审结论（critique 排序 + audit 严重级 + 落地修复）随交付说明一起给出，作为「评审先于交付」的证据。
 
 ### 关键约定
 

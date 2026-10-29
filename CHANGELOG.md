@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## v1.4.0 — 2026-10-29
+
+**新增（设计词汇表与界面评审打磨，来源 A 方案执行）**
+- 第 18 项能力 `impeccable/`（来源 `pbakaus/impeccable`，⭐ ~92.8k）：编码 Agent 的「设计词汇表」——24 条可执行改稿指令（bolder/quieter/distill/critique/audit…）+ 62 条确定性反-slop 规则 + critique/audit 评审。**参考型嫁接**：只收人读词汇与规则文档（`references/` 含 24 指令全表与设计系统、`assets/` 含 slop 检测器配置与 design-system token），不含 Rust CLI 引擎。与「AI 审美三件套」互补：frontend-design 给立场、taste-skill/garden-skills 给方向、impeccable 给改稿动词与客观评审。
+- 第 19 项能力 `jakubkrehel-skills/`（来源 `jakubkrehel/skills`，⭐ ~9k）：14 个纯 agent 子技能整包嫁接（`skills/` 含 better-interface/accessibility/typography/colors/layout/writing/ui、interface-review、explain-interface、break、build-design、teardown、state-machine、variant）。补全出稿 / 出码后的证据驱动精修与评审（无障碍 / 字体 / 色彩 / 布局 / 文案 / UI + 组件状态机 / 变体 / 拆解）。
+
+**变更（深入嫁接，非仅入表）**
+- 内置工作流新增接口⑧「交付前评审」作为**第六步（必做）**：impeccable 的 critique/audit + 62 条 slop 规则 + jakubkrehel `better-*` 证据驱动精修，把「评审先于交付」落成可执行步骤（对应新增铁律 16）。
+- 全局铁律新增 1 条：16 评审先于交付（impeccable × jakubkrehel-skills，客观评审闭环，只报有证据的问题）。
+- README 与 SKILL.md 同步：能力表 17 → 19、frontmatter description / tags（impeccable / jakubkrehel-skills / review / accessibility / ui-polish）、决策树、触发词索引、「与其它技能的关系」（二者定位为设计词汇表方向盘 / 界面评审打磨套件）、组合模式新增「交付前评审组合」、闭环句子纳入评审打磨层；版本号 1.3.0 → 1.4.0。
+
+## v1.3.0 — 2026-10-27
+
+**新增（设计演示与转化引擎，来源 `elayadesign/ai-design-skills`）**
+- 第 16 项能力 `ai-design-skills/skills/design-to-motion/`：把静态设计稿（Figma / 截图 / UI 卡片 / 仪表盘 / hero）像素级 HTML 复刻 → 空状态加载 → 每个视觉「演出」其功能 → 无缝循环 → 导出 MP4（X）/ 网页 GIF / 800×500 GIF；含确定性逐帧捕获（PART A 保真 / PART B 动效 / PART C 录制导出）。与 Theatre.js、motion-showreel 互补。
+- 第 17 项能力 `ai-design-skills/skills/landing-page-design/`：落地页 / 营销页完整系统——intake 提问、页面结构、布局选择、转化文案、SEO，外加严格视觉规则（字体 / 间距 / 圆角 / 背景 / hero / 图标 / 动效）；核心理念 one offer → one audience → one primary action。与 oil-ui、draw-ui 互补，补上「转化率」这块拼图。
+
+**变更（深入嫁接，非仅入表）**
+- 内置工作流新增接口⑥ `landing-page-design`（落地页 / 营销页场景，出稿前定转化结构与文案）与接口⑦ `design-to-motion` 作为第五步·动效展示导出（设计稿 / 出码后生成会动的 MP4 / GIF）。
+- 全局铁律新增 1 条：15 一页一意图（landing-page-design，禁止首屏多 CTA、背景渐变、单侧卡片描边、正文连字符 / 斜体 / 900 字重）。
+- README 与 SKILL.md 同步：能力表 15 → 17、frontmatter description / tags、决策树、触发词索引、「与其它技能的关系」（二者定位为设计演示与转化引擎）、组合模式 / 工作流新增接口⑥⑦；版本号 1.2.0 → 1.3.0。
+
 ## v1.2.1 — 2026-10-24
 
 **更名**
