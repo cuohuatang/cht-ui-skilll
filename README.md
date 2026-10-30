@@ -1,6 +1,6 @@
 # cht-ui-skill
 
-一站式前端视觉与动效技能集，融合 21 大能力，并内置一条「审美打底 → 出方案矩阵 → 出稿（静态稿 / 可拖改原型）→ 生成可运行代码（快速 / 工程模式）→ 完成前验证 → 生成式 UI（json-render）→ 动效展示导出 → 交付前评审（impeccable × jakubkrehel-skills）→ 实测验收」的编排工作流。
+一站式前端视觉与动效技能集，融合 22 大能力，并内置一条「审美打底 → 出方案矩阵 → 出稿（静态稿 / 可拖改原型）→ 生成可运行代码（快速 / 工程模式）→ 完成前验证 → 生成式 UI（json-render）→ 动效展示导出 → 交付前评审（impeccable × jakubkrehel-skills × hallmark）→ 实测验收」的编排工作流。
 
 ## 工作流（内置）
 
@@ -23,12 +23,12 @@ oil-ui + 8 大分册 → 出「风格 × 技术」方案矩阵（默认 6-9 版�
    ↓
 第六步（可选）：design-to-motion 把设计稿做成会动的展示片，导出 MP4/GIF（接口⑦）
    ↓
-第七步（必做）：impeccable critique/audit + 62 条 slop 规则 + jakubkrehel better-* 证据驱动精修（接口⑧）
+第七步（必做）：impeccable critique/audit + 62 条 slop 规则 + jakubkrehel better-* 证据驱动精修 + hallmark 三级闸门/新鲜上下文评审（接口⑧）
    ↓
 你手动接进项目、git 提交、部署
 ```
 
-## 21 大能力
+## 22 大能力
 
 | # | 能力 | 开源来源 | 一句话 |
 |---|------|----------|--------|
@@ -53,6 +53,7 @@ oil-ui + 8 大分册 → 出「风格 × 技术」方案矩阵（默认 6-9 版�
 | 19 | jakubkrehel-skills 界面评审打磨套件 | `jakubkrehel/skills` | 14 子技能：better-interface/accessibility/typography/colors/layout/writing/ui、interface-review、state-machine、variant、break 等 |
 | 20 | json-render 生成式 UI 框架 | `vercel-labs/json-render` | 定义 catalog（组件/动作/数据绑定护栏）→ AI 生成受约束 JSON Spec → renderer 流式渲染；覆盖 React/RN/Vue/Svelte/Solid/R3F/邮件/PDF/终端；让"AI 生成 UI"可预测、可校验（参考型嫁接：packages/core+react、skills/ 全 30 子技能、examples/chat） |
 | 21 | ui-ux-pro-max 设计智能数据库 | `nextlevelbuilder/ui-ux-pro-max-skill` | 可检索设计知识库：79 UI 风格 / 192 配色 / 74 字体配对 / 119 UX 准则 / 25 图表 / 22 技术栈（v2.15.0），含 BM25 检索脚本与输出模板；选型优先查库而非凭空杜撰（参考型嫁接：README/LICENSE/skill.json + src/ui-ux-pro-max 的 data+scripts+templates） |
+| 22 | hallmark 反 AI 味设计技能 | `Nutlope/hallmark`（Together AI） | 50 套带成品图主题素材发牌 + 按页面目的布局 + Floor/Reflex/Finish 三级闸门 + 真实浏览器 sloplint 拦 AI 特征 + 新鲜上下文独立评审 + redesign/audit 指令（技能型整包嫁接：skills/hallmark 全 183 文件 + 根 README/LICENSE） |
 
 ## 安装
 
@@ -82,4 +83,5 @@ cht-ui-skill/
 ├── jakubkrehel-skills/      # 第 19 项：界面评审打磨套件（SKILL.md + skills/ 14 子技能 + LICENSE）
 └── json-render/            # 第 20 项：生成式 UI 框架（SKILL.md + packages/core+react + skills/ 30 子技能 + examples/chat + LICENSE），来源 vercel-labs/json-render（Apache-2.0）
 └── ui-ux-pro-max/          # 第 21 项：设计智能数据库（README/README.zh/LICENSE/skill.json + src/ui-ux-pro-max/{data,scripts,templates}），来源 nextlevelbuilder/ui-ux-pro-max-skill（MIT，⭐~142k，79 风格/192 配色/74 字体配对/119 UX 准则/22 技术栈）
+└── hallmark/               # 第 22 项：反 AI 味设计技能（SKILL.md + references/ 50 主题成品图 + scripts/ sloplint + agents/ + LICENSE/README/ROADMAP），来源 Nutlope/hallmark（MIT，Together AI，⭐~42k）
 ```

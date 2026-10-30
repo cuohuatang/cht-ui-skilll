@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## v1.7.0 — 2026-10-31
+
+**新增（反 AI 味设计技能，来源 `Nutlope/hallmark`，⭐ ~42k，MIT，Together AI 出品）**
+- 第 22 项能力 `hallmark/`：给 AI 编程助手补"设计品味"——**50 套带成品图的主题素材**发牌 3 套供选 + **从"页面要干什么"出发布局**（预约页就是预约、订阅页止于订阅）+ **三级闸门**（Floor 永不放行：对比度/focus/reduced-motion/编造事实/手机端损坏；Reflex 模型默认套路有理由可推翻；Finish 工艺细节只提示）+ 真实浏览器 `sloplint.mjs` 拦 AI 特征（eyebrow 滥用/全大写字距标签/标题单彩词/页尾必挂订阅/表单假感谢）+ **新鲜上下文独立评审员** + `/hallmark redesign`（保内容重搭）/ `/hallmark audit`（只出报告）+ 755 张开放版权真实照片。**技能型整包嫁接**：收 `skills/hallmark/` 全 183 文件（SKILL.md + references/ 含 50 主题成品图 + scripts/ 含 sloplint + agents/）+ 根 README/LICENSE/ROADMAP，共 185 文件 / 7.1MB；排除 site/（官网 56MB）与 docs/ 截图。
+- 顺带更新：`ai-design-skills`（第 16/17 项）星数注记 7,781 → **12,824**（v1.3.0 已嫁接，本次仅刷新数据，不重复嫁接）。
+
+**变更（深入嫁接，非仅入表）**
+- 交付前评审组合（接口⑧）扩为 **impeccable × jakubkrehel-skills × hallmark**：impeccable 管改稿动词与技术质量，jakubkrehel 管证据驱动精修，hallmark 管"像不像 AI 生成"的 Floor/Reflex/Finish 放行闸门与新鲜上下文独立评审。
+- 内置工作流第七步新增「页面级放行闸门（hallmark，整页产出时加跑）」步骤；README 工作流同步。
+- README 与 SKILL.md 同步：能力表 21 → 22、frontmatter description / tags（hallmark / design-gates）、决策树、触发词索引、「与其它技能的关系」（定位为反 AI 味设计技能：主题发牌 + 三级闸门）；版本号 1.6.0 → 1.7.0。
+
 ## v1.6.0 — 2026-10-29
 
 **新增（设计智能数据库，来源 `nextlevelbuilder/ui-ux-pro-max-skill`，⭐ ~142k，MIT）**

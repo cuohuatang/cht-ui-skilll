@@ -1,6 +1,6 @@
 # ai-design-skills（嫁接来源）
 
-来源仓库：[elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)（⭐ 7,781）
+来源仓库：[elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)（⭐ 12,824，2026-10-31 更新）
 
 包含两个自包含技能：
 
